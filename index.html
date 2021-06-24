@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="Nur Mohammad">
+    <meta name="description" content="This is so cool restaurant website made from Bootstrap">
+    <meta name="keywords" content="Beautiful-website, classy-website, restaurant-website, Awesome-website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nurmohammad">
+    <meta name="twitter:title" content="Home">
+    <meta name="twitter:image" content="./image/thumbnail.png">
+    <meta property="og:url" content="https://www.developernur.com/">
+    <meta property="fb:app_id" content="169268369893909">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./image/thumbnail.png">
+    <meta property="og:site_name" content="Developer Nur">
+    <meta property="article:publisher" content="https://facebook.com/developernur">
+    <title>Classy--||--an awesome restaurant website</title>
+    <!-- Favicon of this site -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <!-- Font awesome icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- All css file's cdn link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Css file -->
+    <link rel="stylesheet" href="./css/classy.style.min.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <img src="./assets/images/Preloader (46).gif" class="img-fluid" alt="">
+    </div>
+
+    <section id="phn__email">
+        <div class="container-fluid first-fluid p-0 m-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="phn">
+                            <a href="tel: +8801786-538468">+8801786-538468</a>
+                            <a href="tel: +456-6734-23676">+456-6734-23676</a>
+                        </div>
+                        <div class="time">
+                            <p>From <time>7:00am</time> to <time>9:00pm</time></p>
+                        </div>
+                        <div class="mail">
+                            <a href="mailto: nurislam7815@gmail.com">nurislam7815@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-right">
+            <a href="#" id="selection">
+                <i class="fas fa-angle-down"></i>
+            </a>
+        </div>
+    </section>
+    <header id="header" class="sticky-top">
+        <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
+            <div class="container">
+                <div class="burger d-none">
+                    <span class='burger__component'></span>
+                </div>
+                <a href="#!" class="navbar-brand">
+                    <img src="./assets/images/klassy-logo.png" alt="classy/logo">
+                </a>
+                <div class="ul__wrapper">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#hero" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#items" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link">Chefs</a>
+                        </li>
+                        <li class="nav-item another__class">
+                            <a href="#!" class="nav-link">Features <i class="fas fa-caret-down"></i></a>
+                            <ul class="hover__dropdown">
+                                <li>
+                                    <a href="#offers">Offerable I</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Terms & Service</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Pricing Plan</a>
+                                </li>
+                                <li>
+                                    <a href="#!">404 Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#make__reservation" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main__wrapper">
+        <section id="hero">
+            <div class="full__width">
+                <div class="full__width__left">
+                    <div class="text-center">
+                        <h2>KlassyCafe</h2>
+                        <p>THE BEST EXPERIENCE</p>
+                        <a href="#!">Make A Reservation</a>
+                    </div>
+                </div>
+                <div class="full__width__right">
+                    <div class="carousel carousel-fade slide" data-ride="carousel" id="carousel__roots">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel__roots" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel__roots" data-slide-to="1"></li>
+                            <li data-target="#carousel__roots" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="background: url(./assets/images/slide-01.jpg); width: 100%; height: 100%">
+                                <div class="carousel-background">
+                                    <img src="./assets/images/slide-01.jpg" class="img-fluid" alt="slider/image">
+                                </div>
+                                <div class="overlay"></div>  
+                                <div class="carousel-caption">
+                                    <h2 class="animate__animated animate__fadeInDown"><font color="#FB5849">Welcome </font> Sir</h2>
+                                    <p class='animate__animated animate__zoomIn'>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem.</p>
+                                    <div class="link animate__animated animate__fadeInUp">
+                                        <a href="#offers" class="one">Our Menu</a>
+                                        <a href="#make__reservation" class="two">Book A Table</a>
+                                    </div>
+                                </div>     
+                            </div>
+                            <div class="carousel-item" style="background: url(./assets/images/slide-02.jpg); width: 100%; height: 100%">
+                                <div class="carousel-background">
+                                    <img src="./assets/images/slide-02.jpg" class="img-fluid" alt="slider/image">
+                                </div>
+                                <div class="overlay"></div>
+                                <div class="carousel-caption">
+                                    <h2 class="animate__animated animate__fadeInDown"><font color="#FB5849">Delicious </font>Items</h2>
+                                    <p class='animate__animated animate__zoomIn'>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem.</p>
+                                    <div class="link animate__animated animate__fadeInUp">
+                                        <a href="#offers" class="one">Our Menu</a>
+                                        <a href="#make__reservation" class="two">Book A Table</a>
+                                    </div>
+                                </div>      
+                            </div>
+                            <div class="carousel-item" style="background: url(./assets/images/slide-03.jpg); width: 100%; height: 100%">
+                                <div class="carousel-background">
+                                    <img src="./assets/images/slide-03.jpg" class="img-fluid" alt="slider/image">
+                                </div>
+                                <div class="overlay"></div>
+                                <div class="carousel-caption">
+                                    <h2 class="animate__animated animate__fadeInDown"><font color="#FB5849">Delicious </font>Restaurant </h2>
+                                    <p class='animate__animated animate__zoomIn'>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem.</p>
+                                    <div class="link animate__animated animate__fadeInUp">
+                                        <a href="#offers" class="one">Our Menu</a>
+                                        <a href="#make__reservation" class="two">Book A Table</a>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                        <a href="#carousel__roots" class="carousel-control-prev" data-slide="prev">
+                            <span class="fas fa-angle-left"></span>
+                        </a>
+                        <a href="#carousel__roots" class="carousel-control-next" data-slide="next">
+                            <span class="fas fa-angle-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 margin__bottom">
+                        <h2 class="brife__expline">About Us</h2>
+                        <h2 class="full__expline">We Leave A Delicious Memory For You</h2>
+                        <p>Klassy Cafe is one of the best <a href="#!">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes.
+                        <br> <br>
+                        You are NOT allowed to redistribute the template ZIP file on any template download website. Please contact us for more information.
+                        </p>
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <img src="./assets/images/about-thumb-01.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-4 text-center">
+                                <img src="./assets/images/about-thumb-02.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-4 text-center">
+                                <img src="./assets/images/about-thumb-03.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 youtube">
+                        <div class="inner">
+                            <img src="./assets/images/about-video-bg.jpg" class="img-fluid" alt="">
+                            <a href="https://youtu.be/_NRRRBxcq5Y" target="_blank"><i class="fas fa-play"></i></a>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="items">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="brife__expline">OUR MENU</h2>
+                        <h2 class="full__expline">Our selection of cakes with quality taste</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="carousel__slider owl-carousel owl-theme owl-carousel__another">
+                    <div class="carousel__items one">
+                        <div class="carousel__items__inner">
+                            <div class="price">$25</div>
+                            <div class="carousel__items__inner__content">
+                                <h2>Klassy Cake</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit magni dolores dolorem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__items two">
+                        <div class="carousel__items__inner">
+                            <div class="price">$22</div>
+                            <div class="carousel__items__inner__content">
+                                <h2>Klassy Cup Cake</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit magni dolores dolorem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__items three">
+                        <div class="carousel__items__inner">
+                            <div class="price">$19</div>
+                            <div class="carousel__items__inner__content">
+                                <h2>Blueberry Cake</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit magni dolores dolorem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__items four">
+                        <div class="carousel__items__inner">
+                            <div class="price">$15</div>
+                            <div class="carousel__items__inner__content">
+                                <h2>Chocolate Cake</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit magni dolores dolorem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__items five">
+                        <div class="carousel__items__inner">
+                            <div class="price">$27</div>
+                            <div class="carousel__items__inner__content">
+                                <h2>Klassy Pancake</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit magni dolores dolorem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__items six">
+                        <div class="carousel__items__inner">
+                            <div class="price">$23</div>
+                            <div class="carousel__items__inner__content">
+                                <h2>Klassy Bread</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit magni dolores dolorem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-7 text-center">
+                        <h2 class="brife__expline">OUR CHEFS</h2>
+                        <h2 class="full__expline">We offer the best ingredients for you</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <div class="overlay"></div>
+                                <img src="./assets/images/chefs-01.jpg" class="img-fluid" alt="">
+                                <ul>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-facebook-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body text-center">
+                                <h2>Randy Walker</h2>
+                                <p>Pastry Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <div class="overlay"></div>
+                                <img src="./assets/images/chefs-02.jpg" class="img-fluid" alt="">
+                                <ul>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-facebook-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body text-center">
+                                <h2>David Martin</h2>
+                                <p>Cooking Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <div class="overlay"></div>
+                                <img src="./assets/images/chefs-03.jpg" class="img-fluid" alt="">
+                                <ul>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-facebook-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-twitter-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body text-center">
+                                <h2>Peter Perkson</h2>
+                                <p>Pancake Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="make__reservation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="brife__expline">CONTACT US</h2>
+                        <h2 class="full__expline">Here You Can Make A Reservation Or Just walking to our cafe</h2>
+                        <p>Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei sollicitudin urna diam, sed commodo purus porta ut non vulputate arcu hendrerit .</p>
+                        <div class="row mt-5">
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <i class="fas fa-phone"></i>
+                                    <h2>Phone Numbers</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="tel: +8801786538468">+8801786-538468</a>
+                                        </li>
+                                        <li>
+                                            <a href="tel: +456673423676">+456-6734-23676</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <i class="fas fa-envelope"></i>
+                                    <h2>Emails</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="mailto: nurislam7815@gmail.com">nurislam7815@gmail.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto: inur51548@gmail.com">inur51548@gmail.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 form">
+                        <div class="form__wrapper">
+                            <form method="POST" action="#">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <h2>Table Reservation</h2>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" name="name" class="form-control" placeholder="Your name*" autocomplete="on" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="email" name="email" class="form-control" placeholder="Your email*" autocomplete="on" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="phone" name="phone" class="form-control" placeholder="Phone number*" autocomplete="on" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <select name="guests" class="form-control">
+                                            <option value="#" selected>Number of Guests*</option>
+                                            <option value="#">01</option>
+                                            <option value="#">02</option>
+                                            <option value="#">03</option>
+                                            <option value="#">04</option>
+                                            <option value="#">05</option>
+                                            <option value="#">06</option>
+                                            <option value="#">07</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div id="filterDate2">    
+                                            <div class="input-group date" data-date-format="dd/mm/yyyy">
+                                              <input  name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
+                                              <div class="input-group-addon" >
+                                                <span class="glyphicon glyphicon-th"></span>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <select name="guests" class="form-control">
+                                            <option value="#">Time*</option>
+                                            <option value="#">Breakfast</option>
+                                            <option value="#">Lunch</option>
+                                            <option value="#">Dinner</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <textarea name="massage" class="form-control" required autocomplete="on" cols="30" rows="10" placeholder="Message*"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="submit" class="submit" value="Send Message">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="offers">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-7 text-center mb-5">
+                        <h2 class="brife__expline">KLASSY WEEK</h2>
+                        <h2 class="full__expline">This Week’s Special Meal Offers</h2>
+                    </div>
+                </div>
+                <div class="row" id="tabs">
+                    <div class="col-12 text-center mb-5">
+                        <div class="tabs-header">
+                            <ul class="d-flex justify-content-center" id="targets">
+                                <li data-filter="*" class="mr-3 active all__items">
+                                    <a href="#!"><img class="d-block" src="./assets/images/tab-icon-04.png" alt=""> All Items</a>
+                                </li>
+                                <li data-filter=".brakefast" class="mr-3">
+                                    <a href="#!"><img class="d-block" src="./assets/images/tab-icon-01.png" alt=""> Breakfast</a>
+                                </li>
+                                <li data-filter=".lunch" class="mr-3">
+                                    <a href="#!"><img class="d-block" src="./assets/images/tab-icon-02.png" alt=""> lunch</a>
+                                </li>
+                                <li data-filter=".dinner">
+                                    <a href="#!"><img class="d-block" src="./assets/images/tab-icon-03.png" alt=""> Dinner</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row items">
+                            <div class="col-lg-6 menus-items brakefast lunch">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-01.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Fresh Chicken Salad</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$14</span>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="col-lg-6 menus-items lunch dinner">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-02.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Eggs Omelette</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$12</span>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="col-lg-6 menus-items brakefast dinner">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-03.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Orange Juice</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$10</span>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="col-lg-6 menus-items lunch">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-04.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Dollma Pire</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$16</span>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="col-lg-6 menus-items brakefast dinner">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-05.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Fruit Salad</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$13</span>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="col-lg-6 menus-items brakefast dinner">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-06.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Omelette & Cheese</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$20</span>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="col-lg-6 menus-items lunch">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-01.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Fresh Chicken Salad</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$18</span>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="col-lg-6 menus-items brakefast dinner">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-02.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Fresh Chicken Salad</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$17</span>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="col-lg-6 menus-items brakefast lunch">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-04.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Dollma Pire</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$19</span>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="col-lg-6 menus-items lunch dinner">
+                                <div class="whole__flex">
+                                    <div class="inner__flex">
+                                        <div class="img">
+                                            <img src="./assets/images/tab-item-03.png" class="img-fluid" alt="tab/image">
+                                        </div>
+                                        <div class="middle__content">
+                                            <h2 class="brife__expline">Orange Juice</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span__wrapper">
+                                        <span>$10</span>
+                                    </div>
+                                </div>       
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="containerr">
+            <div class="roww">
+                <div class="logo">
+                    <a href="#!">
+                        <img src="./assets/images/white-logo.png" alt="">
+                    </a>
+                </div>
+                <div class="links">
+                    <ul class="d-flex">
+                        <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="description text-right">
+                    <p>&#169; Copyright Klassy Cafe Co.</p>
+                    <p>Designer: <a href="#!">Nur Mohammad</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#phn__email" id="scrollTOTop">
+        <i class="fas fa-level-up-alt"></i>
+    </a>
+
+    <!-- Javascript important files -->
+    <!-- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    -->
+
+    <!-- All javascript file's cdn links -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="./assets/js/klassy.custom.min.js"></script>
+</body>
+</html>
